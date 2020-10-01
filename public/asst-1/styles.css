@@ -12,6 +12,7 @@ h1 {
   font-family: "Bebas Neue", cursive;
   text-transform: uppercase;
   font-size: 100px;
+  color: aliceblue;
 }
 h2 {
   font-family: "Bebas Neue", cursive;
@@ -20,11 +21,11 @@ h2 {
 .header {
   margin-bottom: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-}
-.header {
   background-color: #2351ba;
   padding: 1%;
+  text-align: center;
 }
 .aside {
   background-color: #4a80ff;
@@ -37,6 +38,7 @@ h2 {
 }
 .wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .article img {
@@ -50,8 +52,8 @@ h2 {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-end;
-  margin-bottom: auto;
-  margin-right: 10px;
+  margin: 10px;
+  max-width: 960px;
 }
 .article p {
   background-color: #4a80ff;
@@ -60,5 +62,7 @@ h2 {
   width: 350px;
 }
 .aside {
+  margin: 10px;
   margin-bottom: 100px;
+  max-width: 960px;
 }
