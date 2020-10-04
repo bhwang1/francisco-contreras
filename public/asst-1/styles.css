@@ -64,7 +64,7 @@ body {
     background-color: #4a80ff;
     border-radius: 4px;
     padding: 1%;
-    flex: 1 0 auto;
+    flex: 0 1 auto;
     border: solid 1px transparent;
 
   }
