@@ -9,9 +9,11 @@ body {
 .header {
     background-color: #2351ba;
     display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: center;
+  align-items: center;
   margin-bottom: 15px;
   padding: 1%;
 
@@ -28,6 +30,8 @@ body {
   .wrapper {
       display: flex;
    justify-content: center;
+   flex-direction: column;
+   align-items: center;
 
 
   }
