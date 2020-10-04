@@ -24,6 +24,8 @@ body {
   .content {
       max-width: 960px;
       display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
   }
 
   .wrapper {
@@ -65,7 +67,7 @@ body {
   }
 
   @media screen and (max-width: 1000px) {
-    .container {
+    .content {
       justify-content: center;
     }
 
