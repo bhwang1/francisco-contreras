@@ -41,7 +41,7 @@ body {
   .article {
       flex: 0 1 auto;
       flex-wrap: wrap;
-      width:320px;
+      width:175px;
 
       margin: 5px;
 
