@@ -11,7 +11,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-content: center;
   align-items: center;
   margin-bottom: 15px;
   padding: 1%;
@@ -33,7 +32,6 @@ body {
 
   .wrapper {
       display: flex;
-   justify-content: center;
    flex-direction: column;
    align-items: center;
 
@@ -58,14 +56,16 @@ body {
   }
 
   .article img {
-    width: 320px;
+    width: inherit;
     outline: 1px solid red;
     border-radius: 4px;
   }
   .article p {
     background-color: #4a80ff;
+    border-radius: 4px;
     padding: 1%;
     flex: 0 1 auto;
+    border: solid 1px transparent;
 
   }
 
