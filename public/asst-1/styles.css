@@ -56,7 +56,7 @@ body {
   }
 
   .article img {
-    width: inherit;
+    width: 175px;
     outline: 1px solid red;
     border-radius: 4px;
   }
