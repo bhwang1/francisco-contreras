@@ -12,8 +12,9 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  margin: 0;
   margin-bottom: 15px;
-  padding: 1%;
+  padding: 15px;
 
   }
   .header img {
