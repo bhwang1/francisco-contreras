@@ -71,14 +71,14 @@ h2 {
   }
 
   .article img {
-    width: 320px;
+    width: inherit;
     outline: 1px solid red;
     border-radius: 4px;
   }
   .article p {
     background-color: #4a80ff;
     border-radius: 4px;
-    padding: 1%;
+    padding: 15px;
     flex: 0 1 auto;
     border: solid 1px transparent;
 
