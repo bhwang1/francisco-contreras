@@ -3,6 +3,22 @@ body {
   margin: 0;
   padding: 0;
   background-color: #edb42d;
+  font-family: serif;
+}
+
+h1, h2 {
+  font-family: 'Times New Roman', 'Lucida Console', serif;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 200;
+
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .header {
